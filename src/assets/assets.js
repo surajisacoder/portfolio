@@ -135,8 +135,8 @@ export const projects = [
     image: projectImg3,
     tech: ["React.js", "Tailwind CSS", "Framer Motion"],
     icons: [FaReact, FaCloud],
-    demo: "#",
-    code: "#",
+    demo: "https://suraj-kumar--portfolio.vercel.app/",
+    code: "https://github.com/surajisacoder/portfolio",
   },
 
   // {

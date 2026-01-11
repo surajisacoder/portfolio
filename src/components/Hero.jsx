@@ -35,7 +35,7 @@ const Hero = () => {
             </a>
             <a
               className="px-6 py-3 bg-purple rounded-lg font-medium hover:bg-purple-700 transition duration-300"
-              href="https://drive.google.com/file/d/1X68epUA6PZF5P9bUVGaiaFFBXr8Y-37l/view"
+              href="https://drive.google.com/file/d/1g95ts4gr8CQi9zC2t6k1NWSU4Ee1Brjj/view"
               target="_blank"
               rel="noreferrer"
             >
