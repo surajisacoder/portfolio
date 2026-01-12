@@ -111,7 +111,7 @@ export const projects = [
     description:
       "Built ShopSphere, a MERN-stack e-commerce platform with JWT authentication, secure payment integration, real-time order processing, advanced filtering and smart search with category-based recommendations, while improving overall speed through optimized APIs and database performance.",
     image: projectImg1,
-    tech: ["React", "CSS", "Node.js", "MongoDB", "Stripe"],
+    tech: ["React", "CSS", "Node.js", "Express", "MongoDB", "Stripe"],
     icons: [FaReact, FaNodeJs, FaDatabase, FaStripe],
     demo: "#",
     code: "https://github.com/surajisacoder/mern-eshop-master",
@@ -165,7 +165,7 @@ export const workData = [
     company: "CODING NINJAS",
     duration: "July 2024 - October 2024",
     description:
-      "Mentored 50+ students in MERN stack and DSA, solved 100+ coding doubts through quick debugging, and earned a 4.5/5 mentor rating for clear concept explanations.",
+      "Mentored 50+ students in MERN stack and DSA/C++, solved 100+ coding doubts through quick debugging, and earned a 4.5/5 mentor rating for clear concept explanations.",
     color: "blue",
   },
   {
@@ -173,7 +173,7 @@ export const workData = [
     company: "IIT ROORKEE",
     duration: "June 2024 - July 2024",
     description:
-      "Built and deployed a Tribal Service Platform using React, Node.js, Firebase, and MongoDB for 500+ tribal users, adding real-time location-based services and optimizing it for fast, responsive performance across all devices.",
+      "Built and deployed a Tribal Service Platform using React, Node.js/Express, Firebase, and MongoDB for 500+ tribal users, adding real-time location-based services and optimizing it for fast, responsive performance across all devices.",
     color: "pink",
   },
 ];

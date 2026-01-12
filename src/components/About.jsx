@@ -62,7 +62,7 @@ const About = () => {
                 responsive user interfaces and scalable backend features using
                 technologies like React, Node.js/Express, PostgreSQL, and REST
                 APIs. I enjoy creating real-world solutions, writing clean code,
-                and improving products that people actually use. SurajResume
+                and improving products that people actually use.
               </p>
               {/* Cards */}
               <div>
