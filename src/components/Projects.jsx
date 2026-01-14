@@ -18,7 +18,7 @@ const Projects = () => {
         <h2 className="text-3xl font-bold text-center mb-4">
           My <span className="text-purple">Projects</span>
         </h2>
-        <p className="text-gray-400n text-center max-w-2xl mx-auto mb-16">
+        <p className="text-gray-400 text-center max-w-2xl mx-auto mb-16">
           {" "}
           A selection of my recent work
         </p>

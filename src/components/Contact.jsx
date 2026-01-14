@@ -2,7 +2,6 @@ import React from "react";
 import { motion } from "framer-motion";
 import { useState } from "react";
 import {
-  FaDribbble,
   FaEnvelope,
   FaGithub,
   FaLinkedin,
@@ -31,7 +30,7 @@ const Contact = () => {
       setResult("Form Submitted Successfully");
       event.target.reset();
     } else {
-      setResult("Error");
+      setResult("Error in submitting form");
     }
   };
 
@@ -44,7 +43,7 @@ const Contact = () => {
       id="contact"
       className="py-20 bg-dark-200"
     >
-      <div className="container max-auto px-6">
+      <div className="container mx-auto px-6">
         <h2 className="text-3xl font-bold text-center mb-4">
           Get In <span className="text-purple">Touch</span>
         </h2>
