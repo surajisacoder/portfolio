@@ -87,7 +87,7 @@ export const skills = [
     icon: FaCloud,
     description:
       "I deploy and manage applications with tools that help in smooth hosting, scaling, and version control.",
-    tags: ["AWS", "Docker", "GitLab", "CI/CD"],
+    tags: ["AWS", "AWS DynamoDb", "Docker", "GitLab", "CI/CD"],
   },
   {
     title: "Tools & Technologies",
@@ -107,14 +107,15 @@ export const skills = [
 
 export const projects = [
   {
-    title: "ShopSphere: Full-stack E-Commerce Solution ",
+    title: "Prescripto: Doctor Appointment Booking App",
     description:
-      "Built ShopSphere, a MERN-stack e-commerce platform with JWT authentication, secure payment integration, real-time order processing, advanced filtering and smart search with category-based recommendations, while improving overall speed through optimized APIs and database performance.",
+      "Built a full-stack doctor appointment booking platform using MongoDB, Express, React, Node.js, and Tailwind, implementing JWT-based authentication with role-based access for patients, doctors, and admins, enabling real-time appointment booking, rescheduling, and availability management, and enhancing user experience through advanced doctor search, filtering, and optimized APIs.",
     image: projectImg1,
-    tech: ["React", "CSS", "Node.js", "Express", "MongoDB", "Stripe"],
+    tech: ["React", "Tailwind", "Node.js", "Express", "MongoDB", "Razorpay"],
     icons: [FaReact, FaNodeJs, FaDatabase, FaStripe],
-    demo: "#",
-    code: "https://github.com/surajisacoder/mern-eshop-master",
+    demo: "https://prescripto-frontend-hq8l.onrender.com",
+    demo2: "https://prescripto-admin-kadq.onrender.com",
+    code: "https://github.com/surajisacoder/Prescripto",
   },
 
   {
@@ -124,7 +125,7 @@ export const projects = [
     image: projectImg2,
     tech: ["HTML", "CSS", "JavaScript"],
     icons: [FaReact, FaNodeJs, FaDatabase, FaStripe],
-    demo: "#",
+    demo: "https://musicplayer-maet.onrender.com",
     code: "https://github.com/surajisacoder/MusicPlayer",
   },
 

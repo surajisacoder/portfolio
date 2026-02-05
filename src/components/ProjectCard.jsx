@@ -1,6 +1,14 @@
 import React from "react";
 
-const ProjectCard = ({ title, description, image, tech, code, demo }) => {
+const ProjectCard = ({
+  title,
+  description,
+  image,
+  tech,
+  code,
+  demo,
+  demo2,
+}) => {
   return (
     <div className="bg-dark-300 rounded-2xl overflow-hidden hover:-translate-y-2 transition duration-300 cursor-pointer">
       <img
@@ -31,6 +39,18 @@ const ProjectCard = ({ title, description, image, tech, code, demo }) => {
           >
             View Demo
           </a>
+
+          {demo2 && (
+            <a
+              href={demo2}
+              target="_blank"
+              rel="noreferrer"
+              className="flex-1 text-center px-4 py-2 bg-purple rounded-lg font-medium hover:bg-purple-700 transition duration-300"
+            >
+              View Demo2
+            </a>
+          )}
+
           <a
             href={code}
             target="_blank"
