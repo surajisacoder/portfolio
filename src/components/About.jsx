@@ -57,12 +57,13 @@ const About = () => {
                 Recommendation from IIT Roorkee.
               </p>
               <p className="text-gray-300 mb-12">
-                After graduation, I joined Yuhiro as a Software Developer, where
-                I currently work on full-stack product development. I build
-                responsive user interfaces and scalable backend features using
-                technologies like React, Node.js/Express, PostgreSQL, and REST
-                APIs. I enjoy creating real-world solutions, writing clean code,
-                and improving products that people actually use.
+                After graduation, I joined Yuhiro and later Azympto as a
+                Software Developer, where I currently work on full-stack product
+                development. I build responsive user interfaces and scalable
+                backend features using technologies like React, Node.js/Express,
+                PostgreSQL, MongoDB, DynamoDB and REST APIs. I enjoy creating
+                real-world solutions, writing clean code, and improving products
+                that people actually use.
               </p>
               {/* Cards */}
               <div>

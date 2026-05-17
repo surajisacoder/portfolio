@@ -63,7 +63,6 @@ export const skills = [
       "Express",
       "REST APIs",
       "JWT Auth",
-      "MVC",
       "Microservices",
       "Socket.IO",
     ],
@@ -155,12 +154,21 @@ export const projects = [
 export const workData = [
   {
     role: "Software Developer",
+    company: "Azympto",
+    duration: "Feb 2025 - Present",
+    description:
+      "Developed scalable full-stack web applications for real-world production use, built reusable React components and responsive user interfaces to improve consistency and user experience, designed and integrated RESTful APIs with MongoDB and DynamoDB for efficient data management, and collaborated with cross-functional teams to deliver optimized, production-ready features.",
+    color: "purple",
+  },
+  {
+    role: "Software Developer",
     company: "YUHIRO",
-    duration: "May 2025 - Present",
+    duration: "May 2025 - Jan 2026",
     description:
       "Working on full-stack features using React and Node.js/Express, managing PostgreSQL with Docker for smooth services, writing clean reusable code with Git for teamwork, and using Linux/VMs for development and testing.",
     color: "purple",
   },
+
   {
     role: "Teaching Assistant",
     company: "CODING NINJAS",
