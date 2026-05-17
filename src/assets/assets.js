@@ -155,7 +155,7 @@ export const workData = [
   {
     role: "Software Developer",
     company: "Azympto",
-    duration: "Feb 2025 - Present",
+    duration: "Feb 2026 - Present",
     description:
       "Developed scalable full-stack web applications for real-world production use, built reusable React components and responsive user interfaces to improve consistency and user experience, designed and integrated RESTful APIs with MongoDB and DynamoDB for efficient data management, and collaborated with cross-functional teams to deliver optimized, production-ready features.",
     color: "purple",

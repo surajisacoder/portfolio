@@ -106,7 +106,7 @@ const Contact = () => {
               </div>
               <div>
                 <h3 className="text-lg font-semibold mb-2">Location</h3>
-                <p className="text-gray-400">Kochi, Kerala</p>
+                <p className="text-gray-400">Bengaluru, Karnataka</p>
               </div>
             </div>
             <div className="flex items-start">
