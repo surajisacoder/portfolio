@@ -8,6 +8,7 @@ const ProjectCard = ({
   code,
   demo,
   demo2,
+  demoCred,
 }) => {
   return (
     <div className="bg-dark-300 rounded-2xl overflow-hidden hover:-translate-y-2 transition duration-300 cursor-pointer">
@@ -51,15 +52,38 @@ const ProjectCard = ({
             </a>
           )}
 
-          <a
-            href={code}
-            target="_blank"
-            rel="noreferrer"
-            className="flex-1 text-center px-4 py-2 border border-purple font-medium rounded-lg hover:bg-purple/20 transition duration-300"
-          >
-            Code
-          </a>
+          {code && (
+            <a
+              href={code}
+              target="_blank"
+              rel="noreferrer"
+              className="flex-1 text-center px-4 py-2 border border-purple font-medium rounded-lg hover:bg-purple/20 transition duration-300"
+            >
+              Code
+            </a>
+          )}
         </div>
+        {demoCred && (
+          <div className="mt-4 p-3 bg-dark-400 rounded-lg text-sm">
+            <p className="font-semibold text-purple mb-2">Demo Credentials</p>
+
+            <div className="space-y-1 text-gray-300">
+              <p>
+                <span className="font-medium">Owner:</span> {demoCred.owner}
+              </p>
+
+              <p>
+                <span className="font-medium">Accountant:</span>{" "}
+                {demoCred.accountant}
+              </p>
+
+              <p>
+                <span className="font-medium">Password:</span>{" "}
+                {demoCred.password}
+              </p>
+            </div>
+          </div>
+        )}
       </div>
     </div>
   );

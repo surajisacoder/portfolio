@@ -16,6 +16,7 @@ import profileImg from "../assets/profile.jpg";
 import projectImg1 from "../assets/project1.png";
 import projectImg2 from "../assets/project2.png";
 import projectImg3 from "../assets/project3.png";
+import projectImg4 from "../assets/project4.png";
 
 export const assets = {
   profileImg,
@@ -137,6 +138,20 @@ export const projects = [
     icons: [FaReact, FaCloud],
     demo: "https://suraj-kumar--portfolio.vercel.app/",
     code: "https://github.com/surajisacoder/portfolio",
+  },
+  {
+    title: "NiyamOS",
+    description:
+      "NiyamOS is a full-stack compliance management platform that helps businesses manage compliance workflows, documents, user communication, and support operations. Built using React, Node.js, Express, and PostgreSQL, it features secure JWT authentication, role-based access control, document management, audit logs, email notifications via Resend, error monitoring with Sentry, and production deployment on a custom domain.",
+    image: projectImg4,
+    tech: ["React.js", "Tailwind CSS", "Node.js", "Express", "PostgreSQL"],
+    icons: [FaReact, FaCloud],
+    demo: "https://niyamos.in/",
+    demoCred: {
+      owner: "demo.owner@niyamos.in",
+      accountant: "demo.accountant@niyamos.in",
+      password: "demo@123",
+    },
   },
 
   // {
