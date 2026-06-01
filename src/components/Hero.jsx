@@ -21,10 +21,12 @@ const Hero = () => {
           <h2 className="text-2xl md:text-4xl font-semibold mb-6 typewriter">
             Full Stack Developer
           </h2>
+
           <p className="text-lg text-gray-300 mb-8">
             {" "}
-            I create stunning web experience with modern technologies and
-            innovative design.
+            I help startups and businesses build SaaS products, dashboards and
+            internal tools with modern technologies and innovative design to
+            automate workflows and improve operations.
           </p>
           <div className="flex space-x-4">
             <a
