@@ -141,8 +141,7 @@ export const projects = [
   },
   {
     title: "NiyamOS",
-    description:
-      "NiyamOS is a full-stack compliance management platform that helps businesses manage compliance workflows, documents, user communication, and support operations. Built using React, Node.js, Express, and PostgreSQL, it features secure JWT authentication, role-based access control, document management, audit logs, email notifications via Resend, error monitoring with Sentry, and production deployment on a custom domain.",
+    description:"NiyamOS is a full-stack business management platform that helps businesses and Chartered Accountants manage compliance, documents, communication, and financial records in one place. It includes compliance tracking, document management, reminders, customer and supplier management, sales invoices, purchase bills, expense tracking, payment records, receivables, payables, and follow-up management. Built using React, Node.js, Express, and PostgreSQL, it features secure JWT authentication, role-based access control, audit logs, email notifications through Resend, error monitoring with Sentry, and production deployment on a custom domain. Upcoming features include advanced financial management and AI-powered business automation.",
     image: projectImg4,
     tech: ["React.js", "Tailwind CSS", "Node.js", "Express", "PostgreSQL"],
     icons: [FaReact, FaCloud],
